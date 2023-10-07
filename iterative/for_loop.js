@@ -1,12 +1,9 @@
-var num = 'good morning'
-var eid='happy'
-function happy(){
-  eid:'happy'
-  console.log(eid)
-  console.log("good night");
 
-  for(i=1;i<=10;i++){
-    console.log(num);
-  }
+  const happy = {
+  eid:'happy',
+  message: 20
 }
-happy()
+num = 'ok'
+for(i=1;i<=2;i++){
+  console.log(num);
+}
