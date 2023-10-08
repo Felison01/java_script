@@ -1,6 +1,7 @@
 var i = 1;
-while(i<=5){
+do
+{
   console.log('hi',i);
   i++;
-  }
-  console.log(i);
+}
+while(i<=5);

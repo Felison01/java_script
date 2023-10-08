@@ -1,4 +1,4 @@
-var product ={
+const product ={
   name : 'socks',
   price : 1090
 };
