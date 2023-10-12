@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>
+      assignment
+    </title>
+  </head>
+  <body> 
+    <h1 style="text-align: center;">Javascript events</h1>
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;">
+      <div>
+        <h3>OnMouseover:</h3>
+        <p>mouse over to change button background colour</p>
+        <button id="first_button" onmouseover=change_1color() style="background-color: red;">mouseover</button>
+      </div>
+      <div>
+        <h3>OnMouseout:</h3>
+        <p>mouse over to change button background colour</p>
+        <button id="second_button" onmouseout=change_2color() style="background-color: red;">mouseover</button>
+      </div>
+      <div>
+        <h3>Onclick:</h3>
+        <p>click to change  background colour</p>
+        <button id="third_button" onclick=change_3color() style="background-color: red;">mouseover</button>
+      </div>
+      <div>
+        <h3>Ondblclick:</h3>
+        <p>Double click to change  background colour</p>
+        <button id="fourth_button" ondblclick=change_4color() style="background-color: red;">mouseover</button>
+      </div>
+      <div>
+        <h3>onfocus:</h3>
+        <p>Click  to change  background colour</p>
+        <input id="fifth_button" onfocus=change_5color() style="background-color: red;">
+      </div>
+      <div>
+        <h3>onblur:</h3>
+        <p>Change lowercase to Uppercase onblur event</p>
+        <input type="text" id="sixth_button" onblur=change_6color() style="background-color: red;"/>
+      </div>
+    </div>
+  </body>
+  <script>
+    function change_1color(){
+      document.getElementById('first_button').style.backgroundColor="blue"
+    }
+    function change_2color(){
+      document.getElementById('second_button').style.backgroundColor="green"
+    }
+    function change_3color(){
+      document.getElementById('third_button').style.backgroundColor="black"
+    }
+    function change_4color(){
+      document.getElementById('fourth_button').style.backgroundColor="blue"
+    }
+    function change_5color(){
+      document.getElementById('fifth_button').style.backgroundColor="pink"
+    }
+    function change_6color(){
+      
+      document.getElementById('sixth_button')
+      
+    }
+  </script>
+</html>
