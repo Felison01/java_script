@@ -38,7 +38,7 @@
       <div>
         <h3>onblur:</h3>
         <p>Change lowercase to Uppercase onblur event</p>
-        <input type="text" id="sixth_button" onblur=change_6color() style="background-color: red;"/>
+        <input type="text" id="blurEx" onblur="change_Case()" style="background-color: red;"/>
       </div>
     </div>
   </body>
@@ -58,9 +58,12 @@
     function change_5color(){
       document.getElementById('fifth_button').style.backgroundColor="pink"
     }
-    function change_6color(){
-      let name = document.getElementById('sixth_button').value
-      document.getElementById('sixth_button').value=name.touppercase()
-    }
+    function change_Case(){
+    //alert('test')
+    let name=document.getElementById('blurEx').value;
+    //alert(name)
+    //document.getElementById('blurEx').value="GM"
+    document.getElementById('blurEx').value=name.toUpperCase();
+}
   </script>
 </html>
