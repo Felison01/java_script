@@ -30,3 +30,8 @@ console.log(a)
   return maped + 10
  })
  console.log(d)
+let arr3 = [1,2,3,3]
+ let e = arr3.reduce((fun,he)=>{
+  return fun + he
+ })
+ console.log(e)
