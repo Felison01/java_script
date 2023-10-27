@@ -10,4 +10,4 @@ let details={
 }
 
 let emp_Details={...emp,...details}
-console.log(emp_Details)
+console.log(emp_Details) 

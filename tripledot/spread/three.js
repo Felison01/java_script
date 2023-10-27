@@ -3,3 +3,5 @@ let b=[10,20,30,80]
 
 let c= [...a, ...b]
 console.log(c)
+console.log(a);
+console.log(b);
